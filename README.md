@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Context
 
-The form for replace react-redux with React Context.
+The form for replace react-redux with React Context and useReducer.
 
 ## Demo & Examples
 

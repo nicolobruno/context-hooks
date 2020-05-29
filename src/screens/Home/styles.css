@@ -11,6 +11,12 @@
     display: flex;
 }
 
+.selected {
+    border: solid 3px black;
+    font-weight: 600;
+    position: relative;
+}
+
 .list-container {
     display: flex;
     flex-wrap: wrap;
@@ -18,39 +24,56 @@
 }
 
 .button {
-    border: solid 2px grey;
+    border: none;
     border-radius: 15px;
     margin: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: transparent;
+    height: 30px;
+    outline: none;
+}
+
+.button:hover {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.button-clean {
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: transparent;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    outline: none;
+}
+
+.button-delete {
+    border: none;
+    border-radius: 15px;
     font-size: 13px;
     font-weight: 800;
     width: 30px;
     height: 25px;
     outline: none;
-}
-
-.button:hover {
-    background-color: lightgray;
-}
-
-.button-clean {
-    border: solid 2px grey;
-    border-radius: 15px;
-    margin: 10px;
-    width: 80px;
-    height: 30px;
-    font-size: 15px;
-    font-weight: 700;
-    outline: none;
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    background-color: transparent;
+    color: red;
 }
 
 .button-clean:hover {
-    background-color: lightgray;
-}
+    font-weight: 800;
+    font-size: 15px;}
 
 .input {
     height: 30px;
     width: 200px;
     font-size: 15px;
     outline: none;
-    border-radius: 10px;
+    border: none;
+    border-bottom: solid 1px gray;
 }

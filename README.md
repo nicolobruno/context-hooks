@@ -15,6 +15,6 @@ npm start
 
 Then open [`localhost:8000`](http://localhost:8000) in a browser.
 
-## ScreennShot
+## ScreenShot
 
 ![all text](https://user-images.githubusercontent.com/28309103/83261618-00446180-a192-11ea-98a1-99e0f98269dc.gif)

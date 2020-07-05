@@ -8,7 +8,9 @@ One simple form for replace **react-redux** in your app using **context** and **
 
 In **/src/context/index** we have define the function **useGlobalValue** with which we access state and dispatch in each component. Is very simple how redux.
 
+```js
 const [state, dispatch] = useGlobalValue();
+```
 
 ## UseReducer
 
